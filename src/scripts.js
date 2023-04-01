@@ -1,5 +1,5 @@
 let log = new Log(document.querySelector('.log'));
-let char = new Knight('Dioneia');
+let char = new Knight('Igor');
 let monster = new LittleMonster();
 
 const stage = new Stage(
