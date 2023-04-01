@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css"/>
+    <title>Luta</title>
+</head>
+<body>
+    <!-- Area de luta -->
+    <div class="fightarea">
+        <!-- Div do personagem -->
+        <div id="char">
+            
+            <!-- Div da barra de vida -->
+            <div class="lifebar">
+                <div class="bar" style="width: 10%"></div>
+            </div>
+            
+            <!-- Nome do cidadão -->
+            <strong class="name">--</strong>
+
+            <!-- Botões de controle do boneco -->
+            <div>
+                <button class="attackButton">Atacar</button>
+            </div>
+        </div>
+        <!-- Div do monstro -->
+        <div id="monster">
+            
+            <!-- Div da barra de vida -->
+            <div class="lifebar">
+                <div class="bar" style="width: 10%"></div>
+            </div>
+            
+            <!-- Nome do monstro -->
+            <strong class="name">--</strong>
+
+            <!-- Botões de controle do monstro -->
+            <div>
+                <button class="attackButton">Atacar</button>
+            </div>
+        </div>
+    </div>
+
+    <ul class="log"></ul>
+
+    <script src="./src/classes.js"></script>
+    <script src="./src/scripts.js"></script>
+</body>
+</html>

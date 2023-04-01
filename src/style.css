@@ -1,0 +1,36 @@
+.fightarea{
+    /* ficar um ao lado do outro */
+    display: flex;
+    gap: 20px;
+}
+
+/* Por que são ids */
+#char, #monster{
+    /* para dividirem o espaço */
+    flex: 1;
+
+}
+
+.lifebar{
+    /* Altura */
+    height: 10px;
+
+    /* borda */
+    border: 1px solid #333;
+    /* borda redondinha */
+    border-radius: 5px; 
+}
+
+.lifebar .bar{
+    /* altura vai herdar a altura do pai */
+    height: inherit;
+    background-color: rgb(199, 40, 40);
+    border-radius: 5px;
+}
+
+.log{
+    border: 1px dotted #999;
+    height: 200px;
+    /* Barra de rolagem */
+    overflow-y: scroll;
+}
